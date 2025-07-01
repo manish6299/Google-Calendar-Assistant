@@ -1,11 +1,14 @@
-google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
+google-api-python-client
+
 phidata
-google-generativeai==0.8.5
+
+# Use only the newer version of the Google GenAI SDK
+google-genai>=1.0.0,<1.24.0
+
 google-ai-generativelanguage==0.6.15
 
-google-genai
 sqlalchemy
 streamlit
 SpeechRecognition
@@ -22,8 +25,7 @@ langsmith==0.3.44
 # Optional: protobuf version for opentelemetry-proto
 protobuf==5.26.1
 
-# Optional: websockets for hume
-websockets==12.0
+websockets>=13.0,<15.1.0
 
 # Optional: aiofiles for hume
 aiofiles==24.1.0

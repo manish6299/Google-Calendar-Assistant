@@ -2,8 +2,9 @@ google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 phidata
-google-generativeai==0.6.0
+google-generativeai==0.8.5
 google-ai-generativelanguage==0.6.18
+
 google-genai
 sqlalchemy
 streamlit

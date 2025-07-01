@@ -4,8 +4,9 @@ google-api-python-client
 
 phidata
 
-# Use only the newer version of the Google GenAI SDK
-google-genai>=1.0.0,<1.24.0
+# Install google-generativeai under both names for compatibility
+google-generativeai==1.23.0
+google-genai==1.23.0
 
 google-ai-generativelanguage==0.6.15
 

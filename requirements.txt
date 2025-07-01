@@ -1,0 +1,27 @@
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+phidata
+google-generativeai==0.4.0
+google-ai-generativelanguage==0.6.18
+google-genai
+sqlalchemy
+streamlit
+SpeechRecognition
+pywin32
+mutagen
+requests==2.31.0
+urllib3==1.26.12
+# Optional: pin fastapi to match chromadb
+fastapi==0.115.9
+# Optional: langsmith for langchain compatibility
+langsmith==0.3.44
+
+# Optional: protobuf version for opentelemetry-proto
+protobuf==5.26.1
+# Optional: websockets for hume
+websockets==12.0
+# Optional: aiofiles for hume
+aiofiles==24.1.0
+# Local module
+-e .
